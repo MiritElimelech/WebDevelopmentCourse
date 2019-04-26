@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+    background-image: url(../images/yyy.jpg)
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#center {
+    width: 800px;
+    background-color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    background-color: #084039;
+    color: white;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    font: bold 16pt rubik;
+    color: white;
+    vertical-align: middle;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+nav ul li a:hover {
+    background-color: #FF795E;
+}
+
+.current_page {
+    background-color: #FF795E;
+}
+
+#content {
+    margin: 30px;
+    padding: 30px;
+    margin-left: 120px;
+}
+
+.photo1{
+    border: 12px double black;
+    height: 450px;
+    margin-left: 60px;
+}
+.photo1:hover {
+ transform: scale(1.5);
+}
+.photo2{
+        border: 12px double black;
+    height: 450px;
+    margin-left: 70px;
+}
+
+.photo2:hover {
+    transform: scale(1.5);
+}
+
+.photo3 {
+    border: 12px double black;
+    height: 450px;
+    margin-left: -60px;
+}
+
+.photo3:hover {
+    transform: scale(1.5);
+}
+
+.text {
+    border: 5px solid #084039;
+    direction: rtl;
+    padding: 20px 40px;
+    margin-right:90px;
+    margin-top:50px;
+    margin-bottom:50px;
+    background-color: #FF795E;
+        
+}
+h1 {
+    text-align: center;
+    font:bold 20pt rubik;
+ }
+
+h2 {
+    text-align: center;
+    font: bold 18pt rubik;
+}
+p {
+    font-size: 15pt;
+    font-family: Rubik;
+    text-align: justify;
+    
+}
+
+#youtube {
+ height: 450px;
+ margin-left:-30px;
+ 
+ 
+}
+.photo4 {
+    border: 5px solid black;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 50px; 
+}
+
+.photo4:hover {
+    transform: scale(1.5);
+}
+
+.photo5 {
+    border: 5px solid black;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: static;
+    left:0;
+}
+.photo5:hover {
+    transform: scale(1.5);
+}
+
+.photo6 {
+    border: 5px solid black;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 30px;
+   
+}
+
+.photo6:hover {
+    transform: scale(1.5);
+}
+
+.text2 {
+    border: 5px solid #084039;
+    direction: rtl;
+    padding: 20px 40px;
+    margin-right: 90px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+   
+}
