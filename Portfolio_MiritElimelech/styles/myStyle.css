@@ -1,0 +1,189 @@
+/* הגדרת פונט rubik */
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+/*רקע לכל האתר*/
+body {
+    background-image: url(../images/flowers1.png);
+    
+}
+
+
+/*מרכוז התפריט*/  
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#center {
+    width: 800px;
+    background-color: white;
+}
+/*הגדרות תפריט*/
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+}
+
+    nav ul li a {
+        display: block;
+        background-color: #084039;
+        color: white;
+        width: 200px;
+        height: 30px;
+        text-decoration: none;
+        text-align: center;
+        font: bold 16pt rubik;
+        color: white;
+        vertical-align: middle;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+/*צבע בעת מעבר עכבר*/
+        nav ul li a:hover {
+            background-color: #FF795E;
+        }
+
+/*צבע נשאר בעת לחיצה*/
+.current_page {
+    background-color: #FF795E;
+}
+
+/*מרכוז התוכן*/
+#content {
+    margin: 30px;
+    padding: 30px;
+    margin-left: 120px;
+}
+/*עיצוב תמונה*/
+.photoposter{
+    border: 12px double black;
+    height: 600px;
+    margin-top:20px;
+}
+
+
+/*עיצוב תמונה*/
+.photoscream {
+    border: 12px double black;
+    height: 700px;
+    margin-left:-10px;
+    margin-top: 20px;
+}
+.scream1 {
+    border: 4px solid black;
+    height: 300px;
+    margin-right:120px;
+    margin-top: 20px;
+}
+/*עיצוב תמונה*/
+.photoobject {
+    border: 12px double black;
+    height: 450px;
+    margin-left: -60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/*הגדרות- טקסט בדפים*/
+.text {
+    border: 5px solid #084039;
+    direction: rtl;
+    padding: 20px 20px;
+    margin: 50px 60px 50px -20px;
+    background-color: #FF795E;
+}
+
+/*עיצוב כותרות ראשיות*/
+h1 {
+    text-align: center;
+    font:bold 20pt rubik;
+ }
+#titleh1{
+    text-align: center;
+    font: bold 35pt rubik;
+    padding-top: 120px;
+}
+    
+   
+    /*עיצוב כותרות*/
+    h2 {
+        text-align: center;
+        font: bold 18pt rubik;
+    }
+
+/*עיצוב פיסקאות*/
+p {
+    font-size: 15pt;
+    font-family: Rubik;
+    text-align: justify;   
+}
+
+/*עיצוב סרטון youtube*/
+#youtube {
+ height: 450px;
+ margin-left:-30px;
+}
+
+
+/*עיצוב תמונות- דף הבית*/
+.photoposterindex {
+    border: 5px solid black;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+/*תמונה גדלה במעבר עכבר*/
+.photoposterindex:hover {
+    transform: scale(1.5);
+}
+
+/*עיצוב תמונות- דף הבית*/
+.photoscreamindex {
+    border: 5px solid black;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: static;
+    left: 0;
+}
+
+/*תמונה גדלה במעבר עכבר*/
+.photoscreamindex:hover {
+    transform: scale(1.5);
+}
+
+/*עיצוב תמונות- דף הבית*/
+.photoobjectindex {
+    border: 5px solid black;
+    height: 150px;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+/*תמונה גדלה במעבר עכבר*/
+.photoobjectindex:hover {
+    transform: scale(1.5);
+}
+
+/*עיצוב טקסט- דף הבית*/
+.text2 {
+    border: 5px solid #084039;
+    direction: rtl;
+    padding: 20px 40px;
+    margin-right: 90px;
+    margin-top: 30px;
+    margin-bottom: 80px; 
+}
+
+figure{
+margin-top:100px;
+}
+
+
