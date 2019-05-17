@@ -1,0 +1,73 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>טכנולוגיות למידה</title>
+    <meta name="description" content="מידע בנושא התואר לטכנולוגיות למידה והשארת פרטים למתעניינים" />
+    <meta name="keywords" content="טכנולוגיות,למידה,תואר ראשון, טכנולוגיות למידה, טלמ, HIT, עיצוב,תכנות,הדרכה" />
+    <meta name="author" content="Mirit Elimelech" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>למה דווקא טכנולוגיות למידה?</h1>
+
+            <p>
+                התואר מיועד לרכישת ידע עיוני בסיסי בתחום הלמידה/הדרכה <br />
+                ומיומנויות יישומיות לתכנון, עיצוב ופיתוח של טכנולוגיות למידה.<br />
+                מאות הבוגרים של תואר זה בעשור האחרון מבוקשים בתעשייה <br />
+                ומועסקים במגוון תפקידים בכל מגזרי המשק.<br />
+                נשמע לכם טוב?<br />
+                מלאו את הפרטים הבאים ונחזור אליכם במהרה 
+               <br />   
+                למידע נוסף 
+               <a href="https://www.hit.ac.il/telem/overview">לחץ כאן<a/>
+</p>
+        </header>  
+        <form>
+            <input type="hidden" id="myEmail" name="name" value="miritelim92@gmail.com">
+            <section  class="form1">
+                <label for="First">
+                    שם פרטי:
+                    <input type="text" id="first" placeholder="הכנס שם פרטי" />
+                </label>
+
+
+                <label for="last">
+                    שם משפחה:
+                    <input type="text" id="last" placeholder="הכנס  שם משפחה" />
+                </label>
+
+                <label for="phone">
+                    מספר טלפון:
+                    <input type="text" id="phone" placeholder="הכנס מספר הטלפון " />
+                </label>
+
+                <label for="phone">
+                    דואר אלקטרוני:
+                    <input type="text" id="email" placeholder="הכנס דואר האלקטרוני " />
+                </label>
+
+                <label for="cb1">
+                    <input type="checkbox" id="cb1" checked /> מוכן לקבל מידע נוסף בדואר
+                </label>
+
+                <input type="submit" id="SendForm" value="שלח" />
+
+                <div id="feedback"></div>
+            </section>
+        </form>
+    </div>
+</body>
+</html>
